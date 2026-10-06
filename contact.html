@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Josglovic Travel Agency — reach us for all your travel needs. Located at 61 Egbe-Isolo Road, Lagos, Nigeria.">
+  <title>Contact Us | Josglovic Travel Agency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="header scrolled">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <div class="nav__logo-icon">J</div>
+        <span class="nav__logo-text">Josglovic<span> Travel</span></span>
+      </a>
+
+      <nav class="nav__menu" id="navMenu">
+        <div class="nav__item">
+          <a href="index.html" class="nav__link">Home</a>
+        </div>
+        <div class="nav__item">
+          <a href="about.html" class="nav__link">About Us</a>
+        </div>
+        <div class="nav__item nav__item--has-submenu">
+          <a href="services.html" class="nav__link nav__has-arrow">Services</a>
+          <div class="nav__submenu">
+            <a href="visa-assistance.html" class="nav__submenu-link">Visa Assistance</a>
+            <a href="flight-booking.html" class="nav__submenu-link">Flight Booking</a>
+            <a href="hotel-reservation.html" class="nav__submenu-link">Hotel Reservation</a>
+            <a href="study-abroad.html" class="nav__submenu-link">Study Abroad</a>
+            <a href="tour-packages.html" class="nav__submenu-link">Tour Packages</a>
+            <a href="travel-insurance.html" class="nav__submenu-link">Travel Insurance</a>
+            <a href="airport-protocol.html" class="nav__submenu-link">Airport Protocol</a>
+            <a href="corporate-travel.html" class="nav__submenu-link">Corporate Travel</a>
+          </div>
+        </div>
+        <div class="nav__item">
+          <a href="gallery.html" class="nav__link">Gallery</a>
+        </div>
+        <div class="nav__item">
+          <a href="contact.html" class="nav__link active">Contact</a>
+        </div>
+        <div class="nav__cta">
+          <a href="book.html" class="btn btn-primary">Book Now</a>
+        </div>
+      </nav>
+
+      <div class="nav__toggle" id="navToggle">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Page Hero ===== -->
+  <section class="page-hero">
+    <div class="page-hero__bg" style="background-image:url('/About_usj.jpeg')"></div>
+    <div class="page-hero__content">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you</p>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> <span>/</span> <span>Contact</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">We'd Love to Hear From You</h2>
+      <p class="section-subtitle">Have a question about your travel plans? Reach us now. We respond fast.</p>
+
+      <div class="contact-grid">
+        <!-- Contact info -->
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+
+          <div class="contact-info__item">
+            <div class="contact-info__icon">&#128205;</div>
+            <div>
+              <div class="contact-info__label">Address</div>
+              <div class="contact-info__value">61, Egbe-Isolo Road<br>Lagos, Nigeria</div>
+            </div>
+          </div>
+
+          <div class="contact-info__item">
+            <div class="contact-info__icon">&#128222;</div>
+            <div>
+              <div class="contact-info__label">Phone / WhatsApp</div>
+              <div class="contact-info__value"><a href="tel:+2349036282736">+234 903 628 2736</a></div>
+            </div>
+          </div>
+
+          <div class="contact-info__item">
+            <div class="contact-info__icon">&#9993;</div>
+            <div>
+              <div class="contact-info__label">Email</div>
+              <div class="contact-info__value">
+                <a href="mailto:booking@josglovictravels.online">booking@josglovictravels.online</a><br>
+                <a href="mailto:josglovictraveltours@gmail.com">josglovictraveltours@gmail.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-info__item">
+            <div class="contact-info__icon">&#127760;</div>
+            <div>
+              <div class="contact-info__label">Website</div>
+              <div class="contact-info__value"><a href="http://www.josglovictravels.online">www.josglovictravels.online</a></div>
+            </div>
+          </div>
+
+          <div class="contact-info__item">
+            <div class="contact-info__icon">&#128337;</div>
+            <div>
+              <div class="contact-info__label">Office Hours</div>
+              <div class="contact-info__value">Monday – Saturday<br>8:30 AM – 6:00 PM</div>
+            </div>
+          </div>
+
+          <a href="https://wa.me/2349036282736" target="_blank" rel="noopener" class="btn btn-whatsapp" style="width:100%;justify-content:center;margin-top:var(--space-2);">Chat on WhatsApp</a>
+        </div>
+
+        <!-- Contact form -->
+        <form class="contact-form" data-form data-form-type="contact">
+          <div class="form-message"></div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email address" required>
+          </div>
+
+          <div class="form-group">
+            <label for="destination">Destination of Interest</label>
+            <select id="destination" name="destination">
+              <option value="">Select a destination</option>
+              <option>Canada</option>
+              <option>UK</option>
+              <option>USA</option>
+              <option>Schengen Countries</option>
+              <option>Dubai</option>
+              <option>Turkey</option>
+              <option>Israel</option>
+              <option>Nigeria Local Tours</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us about your travel plans..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-dark" style="width:100%;justify-content:center;">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__col">
+          <span class="footer__logo">Josglovic<span> Travel</span></span>
+          <p>Your trusted partner in seamless travel &amp; tours. Based in Lagos, Nigeria, serving clients nationwide.</p>
+          <div class="footer__social">
+            <a href="https://facebook.com/jtatravels" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+            <a href="https://wa.me/2349036282736" target="_blank" rel="noopener" aria-label="WhatsApp">W</a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">I</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="book.html">Book Now</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="visa-assistance.html">Visa Assistance</a></li>
+            <li><a href="flight-booking.html">Flight Booking</a></li>
+            <li><a href="study-abroad.html">Study Abroad</a></li>
+            <li><a href="tour-packages.html">Tour Packages</a></li>
+            <li><a href="travel-insurance.html">Travel Insurance</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <p>61, Egbe-Isolo Road<br>Lagos, Nigeria</p>
+          <p>+234 903 628 2736</p>
+          <p>booking@josglovictravels.online</p>
+          <p>josglovictraveltours@gmail.com</p>
+          <p>Mon–Sat: 8:30 AM – 6:00 PM</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Josglovic Travel Agency. All Rights Reserved.</p>
+        <p class="footer__tagline">.....Your Journey, Our Priority.....</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== WhatsApp floating icon ===== -->
+  <a href="https://wa.me/2349036282736" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+    </svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
